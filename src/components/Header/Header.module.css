@@ -1,0 +1,30 @@
+.header_home {
+   
+    background: linear-gradient(98.82deg, #2173EF 15.6%, #C03CD6 85.6%);
+    padding-bottom: 80px;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header_nenu {
+    background: rgba(0, 0, 0, 0.2);
+    height: 90px;
+    margin-bottom: 80px;
+}
+
+.header_btn {
+font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.header_img {
+    margin-bottom: 40px;
+}
