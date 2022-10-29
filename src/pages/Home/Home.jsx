@@ -1,4 +1,4 @@
-import '../Home/Home.scss';
+// import '../Home/Home.scss';
 import fast from '../../img/icons/icon-fast.svg';
 import delivery from '../../img/icons/icon-delivery.svg';
 import price from '../../img/icons/icon-price.svg';

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import star from '../../img/icons/star.svg';
 
 const ReviewsSection = styled.section`
   padding-bottom: 160px;

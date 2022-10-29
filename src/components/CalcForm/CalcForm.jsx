@@ -1,17 +1,19 @@
-import '../CalcForm/CalcForm.scss';
+// import '../CalcForm/CalcForm.scss';
+
+import { CalcBtn, CalcText, CalcTitle } from './Calc.styled';
 
 export default function CalcForm() {
   return (
     <div className="calc_wraper">
-      <h2 className="calc_title">Оперативная полиграфия</h2>
-      <p className="calc_text">
+      <CalcTitle className="calc_title">Оперативная полиграфия</CalcTitle>
+      <CalcText className="calc_text">
         предлагает широкий спектр полиграфических услуг, изготовление любого
         тиража на современном печатном оборудовании на выгодных и
         привлекательных для Вас условиях!
-      </p>
-      <button className="calc_btn" type="button">
+      </CalcText>
+      <CalcBtn className="calc_btn" type="button">
         Отправить заявку
-      </button>
+      </CalcBtn>
     </div>
   );
 }

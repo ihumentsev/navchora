@@ -1,6 +1,5 @@
 import Home from 'pages/Home/Home';
 import { Route, Routes } from 'react-router-dom';
-import Header from './Header/Header';
 import Layout from './Layout/Layout';
 
 export const App = () => {

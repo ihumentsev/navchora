@@ -3,7 +3,7 @@ import Container from 'components/Container/Container ';
 import {
   Box,
   PersonText,
-  PersonTitle,
+  // PersonTitle,
   ReviewsTitle,
 } from 'components/Reviews/Reviews.styled';
 import {
@@ -29,7 +29,7 @@ export default function News() {
       <Container class="container">
         <ReviewsTitle class="title">Последние новости</ReviewsTitle>
         <LinkAbout href="#!" class="link">
-          <IconLink src={tag} />
+          <IconLink src={tag} alt="" />
           Перейти в раздел
         </LinkAbout>
 
@@ -43,7 +43,7 @@ export default function News() {
               </PostTitle>
               <PostBox>
                 <Box>
-                  <img src={calendar} />
+                  <img src={calendar} alt="" />
                   <PersonText class="date">10 марта 2020 г.</PersonText>
                 </Box>
 
@@ -64,7 +64,7 @@ export default function News() {
               </PostTitle>
               <PostBox>
                 <Box>
-                  <img src={calendar} />
+                  <img src={calendar} alt="" />
                   <PersonText class="date">10 марта 2020 г.</PersonText>
                 </Box>
 
@@ -85,7 +85,7 @@ export default function News() {
               </PostTitle>
               <PostBox>
                 <Box>
-                  <img src={calendar} />
+                  <img src={calendar} alt="" />
                   <PersonText class="date">10 марта 2020 г.</PersonText>
                 </Box>
 
@@ -107,7 +107,7 @@ export default function News() {
               </PostTitle>
               <PostBox>
                 <Box>
-                  <img src={calendar} />
+                  <img src={calendar} alt="" />
                   <PersonText class="date">10 марта 2020 г.</PersonText>
                 </Box>
 

@@ -1,13 +1,18 @@
-import '../LangBox/LangBox.scss';
+import { LangItem, LangLink, LangList } from './LangBox.styled';
+
 export default function LangBox() {
   return (
-    <ul className="lang_list">
-      <li className="lang_item">
-        <a className="lang_link">UA</a>
-      </li>
-      <li className="lang_item">
-        <a className="lang_link">RU</a>
-      </li>
-    </ul>
+    <LangList className="lang_list">
+      <LangItem className="lang_item">
+        <LangLink className="lang_link" href="#">
+          UA
+        </LangLink>
+      </LangItem>
+      <LangItem className="lang_item">
+        <LangLink className="lang_link" href="#">
+          RU
+        </LangLink>
+      </LangItem>
+    </LangList>
   );
 }

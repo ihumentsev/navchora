@@ -36,7 +36,7 @@ const Link = styled.a`
   padding: 0;
   color: #757575;
   transition-property: border;
-  transition: var(--animation);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -55,7 +55,7 @@ const Overlay = styled.div`
   box-shadow: 0px 6px 10px rgba(192, 60, 214, 0.2);
   border-radius: 4px;
   transform: translateY(calc(+0% + 295px));
-  transition: var(--animation);
+  transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (max-width: 480px) {
     /* padding: 40px 20px; */

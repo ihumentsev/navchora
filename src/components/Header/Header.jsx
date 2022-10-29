@@ -1,4 +1,3 @@
-import css from '../Header/Header.module.css';
 import img from '../../img/whiteLogo.png';
 import Navigation from 'components/Navigation/Navigation';
 import Container from 'components/Container/Container ';
@@ -36,18 +35,18 @@ export default function Header() {
       <Container>
         <WraperCarusel>
           <NavLink to="/">
-            <HeaderImage src={img} width="280" />
+            <HeaderImage src={img} width="280" alt="#" />
           </NavLink>
           <CalcForm />
           <Carousel autoPlay={true} infiniteLoop={true}>
             <div>
-              <img src={caruselImage} />
+              <img src={caruselImage} alt="#" />
             </div>
             <div>
-              <img src={caruselImage} />
+              <img src={caruselImage} alt="#" />
             </div>
             <div>
-              <img src={caruselImage} />
+              <img src={caruselImage} alt="#" />
             </div>
           </Carousel>
         </WraperCarusel>

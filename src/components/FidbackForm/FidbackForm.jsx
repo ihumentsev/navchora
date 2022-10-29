@@ -6,7 +6,7 @@ import {
   FidbackTitle,
   Form,
   FormWraper,
-  InputText,
+  // InputText,
 } from './FidbackForm.styled';
 import formImage from '../../img/hand.png';
 import { Button } from 'components/DesignSection/DesignSection.styled';

@@ -26,18 +26,18 @@ export default function Reviews() {
       <Container class="container">
         <ReviewsTitle class="title">Отзывы клиентов</ReviewsTitle>
         <LinkAbout href="#!" class="link">
-          <IconLink src={tag} />
+          <IconLink src={tag} alt="" />
           Читать все отзывы
         </LinkAbout>
 
         <ListReviews class="row">
           <ItemReviews class="rvw-i col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <WraperRating class="rating">
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
             </WraperRating>
             <WraperReviews class="review">
               <ImageReviews
@@ -50,7 +50,7 @@ export default function Reviews() {
                   Степаненко Владимир
                 </PersonTitle>
                 <Box>
-                  <img src={calendar} />
+                  <img src={calendar} alt="" />
                   <PersonText class="date">10 марта 2020 г.</PersonText>
                 </Box>
               </WraperPerson>
@@ -64,11 +64,11 @@ export default function Reviews() {
           </ItemReviews>
           <ItemReviews class="rvw-i col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <WraperRating class="rating">
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
             </WraperRating>
             <WraperReviews class="review">
               <ImageReviews
@@ -81,7 +81,7 @@ export default function Reviews() {
                   Степаненко Владимир
                 </PersonTitle>
                 <Box>
-                  <img src={calendar} />
+                  <img src={calendar} alt="" />
                   <PersonText class="date">10 марта 2020 г.</PersonText>
                 </Box>
               </WraperPerson>
@@ -95,11 +95,11 @@ export default function Reviews() {
           </ItemReviews>
           <ItemReviews class="rvw-i col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12">
             <WraperRating class="rating">
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
-              <IconReviews src={star} />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
+              <IconReviews src={star} alt="" />
             </WraperRating>
             <WraperReviews class="review">
               <ImageReviews
@@ -112,7 +112,7 @@ export default function Reviews() {
                   Степаненко Владимир
                 </PersonTitle>
                 <Box>
-                  <img src={calendar} />
+                  <img src={calendar} alt="" />
                   <PersonText class="date">10 марта 2020 г.</PersonText>
                 </Box>
               </WraperPerson>
