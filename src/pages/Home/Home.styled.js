@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Section = styled.section`
+const MainBox = styled.main`
   /* text-align: center; */
   padding-top: 162px;
 `;
@@ -40,4 +40,4 @@ const Text = styled.p`
   line-height: 25px;
 `;
 
-export { Section, AdvantagWraperDiv, List, Item, Text, Image };
+export { MainBox, AdvantagWraperDiv, List, Item, Text, Image };

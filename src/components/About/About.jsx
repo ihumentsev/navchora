@@ -1,8 +1,9 @@
 import Container from 'components/Container/Container ';
-import ReactPlayer from 'react-player/lazy';
+
 import {
   IconLink,
   LinkAbout,
+  Player,
   SectionAbout,
   SectionTitle,
   TextAbout,
@@ -20,9 +21,9 @@ export default function About() {
           Подробнее
         </LinkAbout>
 
-        <WraperBox class="row">
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-            <TextAbout class="about-us__txt">
+        <WraperBox className="row">
+          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+            <TextAbout className="about-us__txt">
               В настоящий момент наша компания является одним из ведущих
               участников рынка полиграфической продукции в Украине.
               <br />
@@ -43,11 +44,12 @@ export default function About() {
             </TextAbout>
           </div>
 
-          <div class="flx-rt col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-            <ReactPlayer
+          <div className="player">
+            <Player
+              className="play"
               url="https://www.facebook.com/navchora.com.ua/videos/349326213091572"
-              width={598}
-              height={400}
+              width="440"
+              height="100%"
             />
           </div>
         </WraperBox>

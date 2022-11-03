@@ -4,6 +4,12 @@ const ContactList = styled.ul`
   list-style: none;
   padding: 0;
   margin-left: auto;
+  @media screen and (min-width: 1000px) {
+    margin-left: 80px;
+  }
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 const ContactLink = styled.a`
   text-decoration: none;

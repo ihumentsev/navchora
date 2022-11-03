@@ -8,7 +8,7 @@ const CalcTitle = styled.h2`
   color: #ffffff;
 `;
 const CalcText = styled.p`
-  width: 597px;
+  width: 100%;
   margin-bottom: 40px;
   font-style: normal;
   font-weight: 400;
@@ -16,6 +16,12 @@ const CalcText = styled.p`
   line-height: 160%;
   /* or 32px */
   color: #ffffff;
+  @media screen and (min-width: 1000px) {
+    width: 470px;
+  }
+  @media screen and (min-width: 1216px) {
+    width: 597px;
+  }
 `;
 const CalcBtn = styled.button`
   cursor: pointer;

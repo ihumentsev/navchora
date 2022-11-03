@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 
 const ReviewsSection = styled.section`
-  padding-bottom: 160px;
+  padding-bottom: 80px;
+  @media screen and (min-width: 1000px) {
+    padding-bottom: 140px;
+  }
+  @media screen and (min-width: 1216px) {
+    padding-bottom: 160px;
+  }
 `;
 const ReviewsTitle = styled.h2`
   font-family: 'Montserrat Alternates';
@@ -14,13 +20,20 @@ const ReviewsTitle = styled.h2`
 const ListReviews = styled.ul`
   display: flex;
   flex-wrap: wrap;
+  gap: 50px 15px;
   justify-content: space-between;
   list-style: none;
   margin-top: 95px;
   padding: 0;
 `;
 const ItemReviews = styled.li`
-  width: 392px;
+  width: 100%;
+  @media screen and (min-width: 1000px) {
+    width: 470px;
+  }
+  @media screen and (min-width: 1216px) {
+    width: 392px;
+  }
 `;
 const WraperRating = styled.div`
   margin-left: 103px;
@@ -29,11 +42,17 @@ const IconReviews = styled.img`
   margin-right: 10px;
 `;
 const WraperReviews = styled.div`
-  width: 392px;
+  width: 100%;
   height: 231px;
   border: 1px solid #e8e8e8;
   border-radius: 2px;
   position: relative;
+  @media screen and (min-width: 1000px) {
+    width: 470px;
+  }
+  @media screen and (min-width: 1216px) {
+    width: 392px;
+  }
 `;
 const ImageReviews = styled.img`
   position: absolute;

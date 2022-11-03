@@ -22,8 +22,10 @@ import post2 from '../../img/news/post__2.png';
 import post3 from '../../img/news/post__3.png';
 import post4 from '../../img/news/post__4.png';
 import calendar from '../../img/icons/calendar.svg';
+import { useIsTablet } from 'Hooks/Hooks';
 
 export default function News() {
+  const isTabletScreen = useIsTablet();
   return (
     <NewsSection class="latest-news">
       <Container class="container">
@@ -76,49 +78,57 @@ export default function News() {
               </PostBox>
             </PostLink>
           </NewsItem>
-          <NewsItem class="news-cl-i col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-            <PostLink href="#">
-              <PostImage src={post3} class="news__img" alt="image-printing" />
+          {isTabletScreen && (
+            <>
+              <NewsItem class="news-cl-i col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <PostLink href="#">
+                  <PostImage
+                    src={post3}
+                    class="news__img"
+                    alt="image-printing"
+                  />
 
-              <PostTitle class="news__title">
-                Неподкупность государственных СМИ разочаровала!
-              </PostTitle>
-              <PostBox>
-                <Box>
-                  <img src={calendar} alt="" />
-                  <PersonText class="date">10 марта 2020 г.</PersonText>
-                </Box>
+                  <PostTitle class="news__title">
+                    Неподкупность государственных СМИ разочаровала!
+                  </PostTitle>
+                  <PostBox>
+                    <Box>
+                      <img src={calendar} alt="" />
+                      <PersonText class="date">10 марта 2020 г.</PersonText>
+                    </Box>
 
-                <PostText class="news__text">
-                  Как уже неоднократно упомянуто, элементы политического
-                  процесса представляют собой не что иное, как квинтэссенцию
-                  победы маркетинга над разумом и должны быть своевременно
-                  верифицированы.
-                </PostText>
-              </PostBox>
-            </PostLink>
-          </NewsItem>
-          <NewsItem class="news-cl-i col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-            <PostLink href="#">
-              <PostImage src={post4} alt="image-printing" />
+                    <PostText class="news__text">
+                      Как уже неоднократно упомянуто, элементы политического
+                      процесса представляют собой не что иное, как квинтэссенцию
+                      победы маркетинга над разумом и должны быть своевременно
+                      верифицированы.
+                    </PostText>
+                  </PostBox>
+                </PostLink>
+              </NewsItem>
+              <NewsItem class="news-cl-i col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                <PostLink href="#">
+                  <PostImage src={post4} alt="image-printing" />
 
-              <PostTitle class="news__title">
-                Сплочённость команды профессионалов продолжает удивлять
-              </PostTitle>
-              <PostBox>
-                <Box>
-                  <img src={calendar} alt="" />
-                  <PersonText class="date">10 марта 2020 г.</PersonText>
-                </Box>
+                  <PostTitle class="news__title">
+                    Сплочённость команды профессионалов продолжает удивлять
+                  </PostTitle>
+                  <PostBox>
+                    <Box>
+                      <img src={calendar} alt="" />
+                      <PersonText class="date">10 марта 2020 г.</PersonText>
+                    </Box>
 
-                <PostText class="news__text">
-                  Повседневная практика показывает, что начало повседневной
-                  работы по формированию позиции говорит о возможностях
-                  соответствующих условий активизации.
-                </PostText>
-              </PostBox>
-            </PostLink>
-          </NewsItem>
+                    <PostText class="news__text">
+                      Повседневная практика показывает, что начало повседневной
+                      работы по формированию позиции говорит о возможностях
+                      соответствующих условий активизации.
+                    </PostText>
+                  </PostBox>
+                </PostLink>
+              </NewsItem>
+            </>
+          )}
         </NewsList>
       </Container>
     </NewsSection>

@@ -3,6 +3,11 @@ const FooterSecondBox = styled.footer`
   padding-top: 80px;
   padding-bottom: 80px;
   background: #e8e8e8;
+  & .wraper {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px 100px;
+  }
 `;
 const ContactTitle = styled.h4`
   font-family: 'Open Sans';

@@ -16,20 +16,121 @@ import {
   WraperCarusel,
 } from './Header.styled';
 import { NavLink } from 'react-router-dom';
+import { useIsDesk, useIsTablet } from 'Hooks/Hooks';
+import { LinkImage, MenuLink } from 'components/Menu/Menu.styled';
+import profile from '../../img/icons/profile.svg';
+import cart from '../../img/icons/cart.svg';
+import menu from '../../img/icons/menu.svg';
+import search from '../../img/icons/search-mob.svg';
+
 export default function Header() {
+  const isTabletScreen = useIsTablet();
+  const isDeskScreen = useIsDesk();
+
+  if (isDeskScreen) {
+    return (
+      <HeaderHome>
+        <Container>
+          <HeaderNav>
+            <LangBox />
+            <Navigation />
+            <ContactItems />
+          </HeaderNav>
+        </Container>
+        <HeaderMenu>
+          <Container>
+            <Menu />
+          </Container>
+        </HeaderMenu>
+        <Container>
+          <WraperCarusel>
+            <NavLink to="/">
+              <HeaderImage src={img} width="280" alt="#" />
+            </NavLink>
+            <CalcForm />
+            <Carousel autoPlay={true} infiniteLoop={true}>
+              <div>
+                <img src={caruselImage} alt="#" />
+              </div>
+              <div>
+                <img src={caruselImage} alt="#" />
+              </div>
+              <div>
+                <img src={caruselImage} alt="#" />
+              </div>
+            </Carousel>
+          </WraperCarusel>
+        </Container>
+      </HeaderHome>
+    );
+  }
+  if (isTabletScreen) {
+    return (
+      <HeaderHome>
+        <HeaderMenu>
+          <Container>
+            <HeaderNav>
+              <LangBox />
+              <ContactItems />
+              <MenuLink>
+                <LinkImage src={search} />
+              </MenuLink>
+              <MenuLink>
+                <LinkImage src={profile} />
+              </MenuLink>
+
+              <MenuLink>
+                <LinkImage src={cart} />
+              </MenuLink>
+              <MenuLink>
+                <LinkImage src={menu} />
+              </MenuLink>
+            </HeaderNav>
+          </Container>
+        </HeaderMenu>
+        <Container>
+          <WraperCarusel>
+            <NavLink to="/">
+              <HeaderImage src={img} width="280" alt="#" />
+            </NavLink>
+            <CalcForm />
+            <Carousel autoPlay={true} infiniteLoop={true}>
+              <div>
+                <img src={caruselImage} alt="#" />
+              </div>
+              <div>
+                <img src={caruselImage} alt="#" />
+              </div>
+              <div>
+                <img src={caruselImage} alt="#" />
+              </div>
+            </Carousel>
+          </WraperCarusel>
+        </Container>
+      </HeaderHome>
+    );
+  }
   return (
     <HeaderHome>
-      <Container>
-        <HeaderNav>
-          <LangBox />
-          <Navigation />
-          <ContactItems />
-        </HeaderNav>
-      </Container>
-
       <HeaderMenu>
         <Container>
-          <Menu />
+          <HeaderNav>
+            <LangBox />
+            <ContactItems />
+            <MenuLink>
+              <LinkImage src={search} />
+            </MenuLink>
+            <MenuLink>
+              <LinkImage src={profile} />
+            </MenuLink>
+
+            <MenuLink>
+              <LinkImage src={cart} />
+            </MenuLink>
+            <MenuLink>
+              <LinkImage src={cart} />
+            </MenuLink>
+          </HeaderNav>
         </Container>
       </HeaderMenu>
       <Container>

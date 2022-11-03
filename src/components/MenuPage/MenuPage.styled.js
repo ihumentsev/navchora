@@ -6,6 +6,9 @@ const MenuWraper = styled.div`
   display: flex;
   align-items: center;
 `;
+const HeaderImage = styled.img`
+  width: 220px;
+`;
 const MenuLink = styled.a`
   cursor: pointer;
   display: flex;
@@ -15,19 +18,9 @@ const MenuLink = styled.a`
   font-size: 16px;
   line-height: 22px;
   color: #ffffff;
-  /* &:last-child {
-    margin-left: 48px;
-  } */
-  @media screen and (max-width: 1000px) {
-    margin-left: 38px;
-    &:first-of-type {
-      margin-left: auto;
-    }
-  }
-  @media screen and (min-width: 1216px) {
-    &:last-child {
-      margin-left: 48px;
-    }
+  margin-left: 40px;
+  &:first-child {
+    margin-left: auto;
   }
 `;
 const LinkImage = styled.img`
@@ -39,7 +32,7 @@ const MenuImput = styled.input`
   border: 1px solid #e8e8e8;
   border-radius: 4px;
   height: 50px;
-  width: 600px;
+  width: 289px;
   margin-right: 108px;
   margin-left: 165px;
   font-style: normal;
@@ -48,4 +41,4 @@ const MenuImput = styled.input`
   line-height: 22px;
   color: #b4b4b4;
 `;
-export { MenuWraper, MenuLink, LinkImage, MenuImput };
+export { MenuWraper, MenuLink, LinkImage, MenuImput, HeaderImage };

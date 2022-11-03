@@ -1,26 +1,39 @@
 import styled from 'styled-components';
 const SectionCategories = styled.section`
-  padding-top: 160px;
-  padding-bottom: 160px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  @media screen and (min-width: 1000px) {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  @media screen and (min-width: 1216px) {
+    padding-top: 160px;
+    padding-bottom: 160px;
+  }
 `;
 const List = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 10px;
+  justify-content: center;
+  gap: 40px 20px;
   list-style: none;
   padding: 0;
+  @media screen and (min-width: 1000px) {
+    gap: 38px 20px;
+  }
+  @media screen and (min-width: 1216px) {
+    gap: 40px 20px;
+  }
 `;
 const Item = styled.li`
   width: 440px;
-  transition: var(--animation);
+  height: 292px;
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 
-  /* @media screen and (min-width: 480px) {
-    width: 400px;
-  } */
   @media screen and (min-width: 1000px) {
     width: 470px;
+    height: 294px;
   }
-
   @media screen and (min-width: 1216px) {
     width: 392px;
     height: 292px;
@@ -57,17 +70,6 @@ const Overlay = styled.div`
   transform: translateY(calc(+0% + 295px));
   transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  @media screen and (max-width: 480px) {
-    /* padding: 40px 20px; */
-  }
-
-  @media screen and (min-width: 1000px) {
-    /* width: 354px; */
-  }
-
-  @media screen and (min-width: 1216px) {
-    /* width: 392px; */
-  }
   ${Link}:hover & {
     transform: translateY(0%);
   }
@@ -85,6 +87,7 @@ const Tumb = styled.div`
 `;
 const ImageItem = styled.img`
   width: 400px;
+  height: 170px;
   display: block;
   margin-top: 20px;
   margin-left: auto;
@@ -128,10 +131,10 @@ const OverlayText = styled.p`
   }
 `;
 const DespirationItem = styled.div`
-  padding: 24px 20px;
+  padding: 40px 24px;
 `;
 const DespirationTitle = styled.h2`
-  margin-bottom: 4px;
+  margin: 0;
   font-family: 'Montserrat Alternates';
   font-style: normal;
   font-weight: 600;

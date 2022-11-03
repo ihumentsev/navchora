@@ -20,7 +20,7 @@ export default function Categories() {
       <List class="project-list">
         {categoies.map(item => {
           return (
-            <Item class="project-item">
+            <Item class="project-item" key={item.name}>
               <Link href="#" class="project-link">
                 <Tumb class="project-tumb">
                   <ImageItem width="392" src={image} />

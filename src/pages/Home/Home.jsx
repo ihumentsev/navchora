@@ -1,4 +1,3 @@
-// import '../Home/Home.scss';
 import fast from '../../img/icons/icon-fast.svg';
 import delivery from '../../img/icons/icon-delivery.svg';
 import price from '../../img/icons/icon-price.svg';
@@ -8,7 +7,7 @@ import {
   Image,
   Item,
   List,
-  Section,
+  MainBox,
   Text,
 } from './Home.styled';
 import Container from 'components/Container/Container ';
@@ -18,12 +17,10 @@ import About from 'components/About/About';
 import Reviews from 'components/Reviews/Reviews';
 import News from 'components/News/News';
 import FidbackForm from 'components/FidbackForm/FidbackForm';
-import FooterFirst from 'components/FooterFirst/FooterFirst';
-import FooterSecond from 'components/FooterSecond/FooterSecond';
 
 export default function Home() {
   return (
-    <Section className="home_section">
+    <MainBox className="home_section">
       <Container>
         <AdvantagWraperDiv className="advantag_wraper">
           <List className="advantag_list">
@@ -52,8 +49,6 @@ export default function Home() {
       <Reviews />
       <News />
       <FidbackForm />
-      <FooterFirst />
-      <FooterSecond />
-    </Section>
+    </MainBox>
   );
 }

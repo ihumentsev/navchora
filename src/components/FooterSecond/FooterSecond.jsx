@@ -17,38 +17,42 @@ import {
 } from './FooterSecond.styled';
 import fbIcon from '../../img/icons/social/fb.svg';
 import insta from '../../img/icons/social/insta.svg';
+import { useIsDesk } from 'Hooks/Hooks';
 
 export default function FooterSecond() {
+  const isDeskScreen = useIsDesk();
   return (
     <FooterSecondBox>
       <Container>
-        <FooterBox class="row">
-          <div class="footer__menu col-xl-3 col-lg-3">
-            <ListTitle>Информация</ListTitle>
-            <FooterList>
-              <FooterItem>
-                <ItemLink href="#!">Новости</ItemLink>
-              </FooterItem>
-              <FooterItem>
-                <ItemLink href="#!">Оплата и доставка</ItemLink>
-              </FooterItem>
-              <FooterItem>
-                <ItemLink href="#!">Платформа для РА</ItemLink>
-              </FooterItem>
-              <FooterItem>
-                <ItemLink href="#!">Акции</ItemLink>
-              </FooterItem>
-              <FooterItem>
-                <ItemLink href="#!">Помощь</ItemLink>
-              </FooterItem>
-              <FooterItem>
-                <ItemLink href="#!">Контакты</ItemLink>
-              </FooterItem>
-            </FooterList>
-          </div>
+        <FooterBox className="wraper">
+          {isDeskScreen && (
+            <div className="footer__menu col-xl-3 col-lg-3">
+              <ListTitle>Информация</ListTitle>
+              <FooterList>
+                <FooterItem>
+                  <ItemLink href="#!">Новости</ItemLink>
+                </FooterItem>
+                <FooterItem>
+                  <ItemLink href="#!">Оплата и доставка</ItemLink>
+                </FooterItem>
+                <FooterItem>
+                  <ItemLink href="#!">Платформа для РА</ItemLink>
+                </FooterItem>
+                <FooterItem>
+                  <ItemLink href="#!">Акции</ItemLink>
+                </FooterItem>
+                <FooterItem>
+                  <ItemLink href="#!">Помощь</ItemLink>
+                </FooterItem>
+                <FooterItem>
+                  <ItemLink href="#!">Контакты</ItemLink>
+                </FooterItem>
+              </FooterList>
+            </div>
+          )}
 
-          <div class="footer__inf col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-            <div class="address">
+          <div className="footer__inf col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <div className="address">
               <ContactTitle>Адрес:</ContactTitle>
               <ContactLink href="https://goo.gl/maps/pKP3HiVAZMcDCzVi7">
                 <ContactText>
@@ -58,7 +62,7 @@ export default function FooterSecond() {
                 </ContactText>
               </ContactLink>
             </div>
-            <div class="time">
+            <div className="time">
               <ContactTitle>Режим работы:</ContactTitle>
               <ContactText>
                 Пн - Пт 10:00 - 19:00
@@ -68,8 +72,8 @@ export default function FooterSecond() {
             </div>
           </div>
 
-          <div class="footer__contact col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
-            <WraperPhone class="phone">
+          <div className="footer__contact col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+            <WraperPhone className="phone">
               <ContactTitle>Телефоны:</ContactTitle>
               <ContactLink href="tel:+380507408745">
                 +38 (050) 740 8 745
@@ -79,17 +83,17 @@ export default function FooterSecond() {
                 +38 (098) 62 555 76
               </ContactLink>
             </WraperPhone>
-            <div class="email">
+            <div className="email">
               <ContactLink href="mailto:info@navchora.com.ua">
                 info@navchora.com.ua
               </ContactLink>
             </div>
-            <div class="social">
+            <div className="social">
               <SocialList>
                 <li>
                   <a
                     href="https://www.instagram.com/navchora.com.ua/"
-                    class="social__insta"
+                    className="social__insta"
                   >
                     <img src={insta} alt="" />
                   </a>
@@ -97,7 +101,7 @@ export default function FooterSecond() {
                 <li>
                   <a
                     href="https://www.facebook.com/navchora.com.ua/"
-                    class="social__fb"
+                    className="social__fb"
                   >
                     <img src={fbIcon} alt="" />
                   </a>
@@ -106,7 +110,7 @@ export default function FooterSecond() {
             </div>
           </div>
 
-          <div class="footer__copy col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+          <div className="footer__copy col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
             <ListTitle>© Оперативная полиграфия L-Format, 2017</ListTitle>
             <ul>
               <DeveloperItem>
