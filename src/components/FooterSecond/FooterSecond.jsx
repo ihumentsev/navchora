@@ -27,25 +27,25 @@ export default function FooterSecond() {
         <FooterBox className="wraper">
           {isDeskScreen && (
             <div className="footer__menu col-xl-3 col-lg-3">
-              <ListTitle>Информация</ListTitle>
+              <ListTitle>Інформація</ListTitle>
               <FooterList>
                 <FooterItem>
-                  <ItemLink href="#!">Новости</ItemLink>
+                  <ItemLink href="#!">Новини</ItemLink>
                 </FooterItem>
                 <FooterItem>
-                  <ItemLink href="#!">Оплата и доставка</ItemLink>
+                  <ItemLink href="#!">Оплата і доставка</ItemLink>
                 </FooterItem>
                 <FooterItem>
                   <ItemLink href="#!">Платформа для РА</ItemLink>
                 </FooterItem>
                 <FooterItem>
-                  <ItemLink href="#!">Акции</ItemLink>
+                  <ItemLink href="#!">Акціі</ItemLink>
                 </FooterItem>
                 <FooterItem>
-                  <ItemLink href="#!">Помощь</ItemLink>
+                  <ItemLink href="#!">Допомога</ItemLink>
                 </FooterItem>
                 <FooterItem>
-                  <ItemLink href="#!">Контакты</ItemLink>
+                  <ItemLink href="#!">Контакти</ItemLink>
                 </FooterItem>
               </FooterList>
             </div>
@@ -53,28 +53,28 @@ export default function FooterSecond() {
 
           <div className="footer__inf col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
             <div className="address">
-              <ContactTitle>Адрес:</ContactTitle>
+              <ContactTitle>Адреса:</ContactTitle>
               <ContactLink href="https://goo.gl/maps/pKP3HiVAZMcDCzVi7">
                 <ContactText>
-                  Украина, г.Киев
+                  Україна, м.Київ
                   <br />
-                  ул. Василия Яна, 3/5
+                  вул. Василя Яна, 3/5
                 </ContactText>
               </ContactLink>
             </div>
             <div className="time">
-              <ContactTitle>Режим работы:</ContactTitle>
+              <ContactTitle>Режим роботи:</ContactTitle>
               <ContactText>
                 Пн - Пт 10:00 - 19:00
                 <br />
-                Сб - Вс Выходной
+                Сб - Вс Вихідний
               </ContactText>
             </div>
           </div>
 
           <div className="footer__contact col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
             <WraperPhone className="phone">
-              <ContactTitle>Телефоны:</ContactTitle>
+              <ContactTitle>Телефони:</ContactTitle>
               <ContactLink href="tel:+380507408745">
                 +38 (050) 740 8 745
               </ContactLink>
@@ -111,7 +111,7 @@ export default function FooterSecond() {
           </div>
 
           <div className="footer__copy col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-            <ListTitle>© Оперативная полиграфия L-Format, 2017</ListTitle>
+            <ListTitle>© Оперативна поліграфія L-Format, 2017</ListTitle>
             <ul>
               <DeveloperItem>
                 Full-stack developer — <span>Igumentsev Andrii</span>

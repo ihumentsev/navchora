@@ -25,12 +25,12 @@ export default function MenuPage() {
       </MenuLink>
       <MenuLink>
         <LinkImage src={profile} />
-        Кабинет
+        Кабінет
       </MenuLink>
 
       <MenuLink>
         <LinkImage src={cart} />
-        Корзина
+        Кошик
       </MenuLink>
     </MenuWraper>
   );

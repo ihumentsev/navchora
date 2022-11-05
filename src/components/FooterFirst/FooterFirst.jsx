@@ -14,26 +14,26 @@ export default function FooterFirst() {
       <Container>
         <FooterBox class="link-list">
           <div class="sec col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-            <ListTitle class="link-list__title">Полиграфия</ListTitle>
+            <ListTitle class="link-list__title">Поліграфія</ListTitle>
             <FooterList>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Блокноты
+                  Блокноти
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Брошюры / Каталоги
+                  Брошури / Каталоги
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Буклеты
+                  Буклети
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Визитки
+                  Візитівки
                 </ItemLink>
               </FooterItem>
               <FooterItem>
@@ -43,7 +43,7 @@ export default function FooterFirst() {
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Листовки / Флаеры
+                  Листівки / Флаєри
                 </ItemLink>
               </FooterItem>
               <FooterItem>
@@ -58,7 +58,7 @@ export default function FooterFirst() {
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Открытки
+                  Вітальні листівки
                 </ItemLink>
               </FooterItem>
               <FooterItem>
@@ -68,55 +68,53 @@ export default function FooterFirst() {
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Плакаты/афиши
+                  Плакати/афіши
                 </ItemLink>
               </FooterItem>
             </FooterList>
           </div>
 
           <div class="sec col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-            <ListTitle class="link-list__title">
-              Широкоформатная печать
-            </ListTitle>
+            <ListTitle class="link-list__title">Широкоформатний друк</ListTitle>
             <FooterList>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Баннеры
+                  Банери
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Печать на самоклеющейся пленке
+                  Друк на плівці
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Печать на холсте
+                  Друк на полотні
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Печать на обоях
+                  Друк на шпалерах
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Печать на фотобумаге
+                  Друк на фотопапері
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Печать на бумаге Bluback
+                  Друк на папері Bluback
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Постеры
+                  Постери
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Пресс воллы
+                  Пресс-волли
                 </ItemLink>
               </FooterItem>
               <FooterItem>
@@ -138,16 +136,16 @@ export default function FooterFirst() {
           </div>
 
           <div class="sec col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-            <ListTitle class="link-list__title">Стенды, конструкции</ListTitle>
+            <ListTitle class="link-list__title">Стенди, конструкціі</ListTitle>
             <FooterList>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Баннерные стенды
+                  Банерні стенди
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Планки для плакатов
+                  Планки для плакатів
                 </ItemLink>
               </FooterItem>
               <FooterItem>
@@ -157,17 +155,17 @@ export default function FooterFirst() {
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Стойки для прайсов
+                  Стійки для прайсів
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Стойки указатели
+                  Стійки вказівники
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Штендеры
+                  Штендери
                 </ItemLink>
               </FooterItem>
               <FooterItem>
@@ -184,33 +182,33 @@ export default function FooterFirst() {
           </div>
 
           <div class="sec col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
-            <ListTitle class="link-list__title">Плоттерная резка</ListTitle>
+            <ListTitle class="link-list__title">Плоттерна порізка</ListTitle>
             <FooterList>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Выборка
+                  Выбірка
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Нанесение монтажной пленки
+                  Нанесення монтажної плівки
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link">
-                  Порезка
+                  Порізка
                 </ItemLink>
               </FooterItem>
             </FooterList>
             <FooterList>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link-big">
-                  <ListTitle>Вывески</ListTitle>
+                  <ListTitle>Вивіски</ListTitle>
                 </ItemLink>
               </FooterItem>
               <FooterItem>
                 <ItemLink href="#!" class="link-list__link-big">
-                  <ListTitle>Ризография</ListTitle>
+                  <ListTitle>Ризографія</ListTitle>
                 </ItemLink>
               </FooterItem>
               <FooterItem>

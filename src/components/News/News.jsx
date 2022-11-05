@@ -17,10 +17,10 @@ import {
   PostTitle,
 } from './News.styled';
 import tag from '../../img/icons/iconLink.svg';
-import post1 from '../../img/news/post__1.png';
-import post2 from '../../img/news/post__2.png';
-import post3 from '../../img/news/post__3.png';
-import post4 from '../../img/news/post__4.png';
+import post1 from '../../img/news/novapochta.jpg';
+import post2 from '../../img/news/logo_liqpay_new.jpg';
+import post3 from '../../img/news/T-shirt.png';
+import post4 from '../../img/news/nocai.jpg';
 import calendar from '../../img/icons/calendar.svg';
 import { useIsTablet } from 'Hooks/Hooks';
 
@@ -29,10 +29,10 @@ export default function News() {
   return (
     <NewsSection class="latest-news">
       <Container class="container">
-        <ReviewsTitle class="title">Последние новости</ReviewsTitle>
+        <ReviewsTitle class="title">Останні новини</ReviewsTitle>
         <LinkAbout href="#!" class="link">
           <IconLink src={tag} alt="" />
-          Перейти в раздел
+          Перейти до розділу
         </LinkAbout>
 
         <NewsList class="row">
@@ -41,18 +41,18 @@ export default function News() {
               <PostImage src={post1} class="news__img" alt="image-printing" />
 
               <PostTitle class="news__title">
-                Оказывается, объемы выросли
+                Доставка кур'єрською службою Нова пошта
               </PostTitle>
               <PostBox>
                 <Box>
                   <img src={calendar} alt="" />
-                  <PersonText class="date">10 марта 2020 г.</PersonText>
+                  <PersonText class="date">10 жовтня 2021 р.</PersonText>
                 </Box>
 
                 <PostText class="news__text">
-                  Являясь всего лишь частью общей картины, активно развивающиеся
-                  страны третьего мира и по сей день остаются уделом либералов,
-                  которые жаждут быть обнародованы.
+                  Відтепер доставкою замовлень займається кур'єрська служба Нова
+                  пошта. Оформити доставку, а також розрахувати її вартість
+                  можна онлайн на сайті при оформленні замовлення.
                 </PostText>
               </PostBox>
             </PostLink>
@@ -62,18 +62,17 @@ export default function News() {
               <PostImage src={post2} class="news__img" alt="image-printing" />
 
               <PostTitle class="news__title">
-                Политика не может не реагировать на звон колоколов
+                Реалізована оплата замовлень платіжною сістемою LIQPAY
               </PostTitle>
               <PostBox>
                 <Box>
                   <img src={calendar} alt="" />
-                  <PersonText class="date">10 марта 2020 г.</PersonText>
+                  <PersonText class="date">15 січня 2022 р.</PersonText>
                 </Box>
 
                 <PostText class="news__text">
-                  Банальные, но неопровержимые выводы, а также ключевые
-                  особенности структуры проекта, инициированные исключительно
-                  синтетически, описаны максимально подробно.
+                  Нарешті можна сплачувати замовлення онлайн порямо на сайті.
+                  Відтепер наш сервіс стал ще зручнішим!
                 </PostText>
               </PostBox>
             </PostLink>
@@ -88,20 +87,17 @@ export default function News() {
                     alt="image-printing"
                   />
 
-                  <PostTitle class="news__title">
-                    Неподкупность государственных СМИ разочаровала!
-                  </PostTitle>
+                  <PostTitle class="news__title">Нові можливості!</PostTitle>
                   <PostBox>
                     <Box>
                       <img src={calendar} alt="" />
-                      <PersonText class="date">10 марта 2020 г.</PersonText>
+                      <PersonText class="date">10 березня 2021 г.</PersonText>
                     </Box>
 
                     <PostText class="news__text">
-                      Как уже неоднократно упомянуто, элементы политического
-                      процесса представляют собой не что иное, как квинтэссенцию
-                      победы маркетинга над разумом и должны быть своевременно
-                      верифицированы.
+                      Тепер кожен може спробувати себе на ролі дизайнеру одягу.
+                      Ви можете обрати любмй принт із нашої колекціі, або
+                      реалізувати свою сміливу ідею.
                     </PostText>
                   </PostBox>
                 </PostLink>
@@ -111,18 +107,18 @@ export default function News() {
                   <PostImage src={post4} alt="image-printing" />
 
                   <PostTitle class="news__title">
-                    Сплочённость команды профессионалов продолжает удивлять
+                    Оновлення парку обладнання!
                   </PostTitle>
                   <PostBox>
                     <Box>
                       <img src={calendar} alt="" />
-                      <PersonText class="date">10 марта 2020 г.</PersonText>
+                      <PersonText class="date">13 квітня 2021 г.</PersonText>
                     </Box>
 
                     <PostText class="news__text">
-                      Повседневная практика показывает, что начало повседневной
-                      работы по формированию позиции говорит о возможностях
-                      соответствующих условий активизации.
+                      В нашій родині появився новий красунчик. Він може робити
+                      неймовірні речі. Друк на сувенірній продукціі: ручки,
+                      чашки, брелоки та багато чого іншого.
                     </PostText>
                   </PostBox>
                 </PostLink>

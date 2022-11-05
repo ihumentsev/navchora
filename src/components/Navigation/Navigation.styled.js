@@ -21,7 +21,7 @@ const StyledLink = styled(NavLink)`
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   color: #ffffff;
   padding: 8px 18px;

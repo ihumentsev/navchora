@@ -58,17 +58,17 @@ export default function FidbackForm() {
             </div>
             <FormWraper class="callback__form">
               <FidbackTitle class="callback__title">
-                Не знаете, с чего начать?
+                Не знаєте з чого почати?
               </FidbackTitle>
               <FidbackText class="callback__text">
-                Наш менеджер с радостью
+                Наш менеджер із радістю
                 <br />
-                Вам поможет!
+                Вам дапоможе!
               </FidbackText>
               <Form action="" className="forma-forma">
                 <FidbackInput type="tel" name="phone" placeholder="+380" />
                 <Button class="callback__btn" type="submit">
-                  Заказать звонок
+                  Замовити звінок
                 </Button>
               </Form>
             </FormWraper>

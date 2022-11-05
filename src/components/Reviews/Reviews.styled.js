@@ -43,7 +43,7 @@ const IconReviews = styled.img`
 `;
 const WraperReviews = styled.div`
   width: 100%;
-  height: 231px;
+  height: 100%;
   border: 1px solid #e8e8e8;
   border-radius: 2px;
   position: relative;
@@ -57,6 +57,8 @@ const WraperReviews = styled.div`
 const ImageReviews = styled.img`
   position: absolute;
   top: -50px;
+  border-radius: 50px;
+  width: 80px;
 `;
 const WraperPerson = styled.div`
   margin-left: 105px;

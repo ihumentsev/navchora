@@ -5,14 +5,16 @@ import { CalcBtn, CalcText, CalcTitle } from './Calc.styled';
 export default function CalcForm() {
   return (
     <div className="calc_wraper">
-      <CalcTitle className="calc_title">Оперативная полиграфия</CalcTitle>
+      <CalcTitle className="calc_title">
+        Онлайн-центр поліграфічних послуг
+      </CalcTitle>
       <CalcText className="calc_text">
-        предлагает широкий спектр полиграфических услуг, изготовление любого
-        тиража на современном печатном оборудовании на выгодных и
-        привлекательных для Вас условиях!
+        пропонує широкий спектр поліграфічних послуг, виготовлення будь-якого
+        тиражу на сучасному друкарському устаткуванні на вигідних та привабливих
+        для Вас умовах!
       </CalcText>
       <CalcBtn className="calc_btn" type="button">
-        Отправить заявку
+        Відправити заявку
       </CalcBtn>
     </div>
   );

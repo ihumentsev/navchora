@@ -12,12 +12,12 @@ export default function Menu() {
       <MenuImput placeholder="Поиск..." />
       <MenuLink>
         <LinkImage src={profile} />
-        Кабинет
+        Кабінет
       </MenuLink>
 
       <MenuLink>
         <LinkImage src={cart} />
-        Корзина
+        Кошик
       </MenuLink>
     </MenuWraper>
   );

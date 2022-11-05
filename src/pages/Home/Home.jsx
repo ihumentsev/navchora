@@ -26,19 +26,19 @@ export default function Home() {
           <List className="advantag_list">
             <Item className="advantag_item">
               <Image src={prod} width="58" />
-              <Text className="advantag_text">Собственное производство</Text>
+              <Text className="advantag_text">Власне виробництво</Text>
             </Item>
             <Item className="advantag_item">
               <Image src={price} width="58" />
-              <Text className="advantag_text">Приятные цены</Text>
+              <Text className="advantag_text">Приємні ціни</Text>
             </Item>
             <Item className="advantag_item">
               <Image src={fast} width="58" />
-              <Text className="advantag_text">Быстрое изготовление</Text>
+              <Text className="advantag_text">Швидке виготовлення</Text>
             </Item>
             <Item className="advantag_item">
               <Image src={delivery} width="74" />
-              <Text className="advantag_text">Доставка по Украине</Text>
+              <Text className="advantag_text">Доставка по Україні</Text>
             </Item>
           </List>
         </AdvantagWraperDiv>

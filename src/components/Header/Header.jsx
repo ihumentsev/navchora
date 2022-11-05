@@ -7,7 +7,9 @@ import LangBox from 'components/LangBox/LangBox';
 import CalcForm from 'components/CalcForm/CalcForm';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import caruselImage from '../../img/slider/slider_001.png';
+import slider1 from '../../img/slider/slider1.jpg';
+import slider2 from '../../img/slider/slider2.jpg';
+import slider3 from '../../img/slider/slider3.jpg';
 import {
   HeaderHome,
   HeaderImage,
@@ -50,13 +52,13 @@ export default function Header() {
             <CalcForm />
             <Carousel autoPlay={true} infiniteLoop={true}>
               <div>
-                <img src={caruselImage} alt="#" />
+                <img src={slider1} alt="#" />
               </div>
               <div>
-                <img src={caruselImage} alt="#" />
+                <img src={slider2} alt="#" />
               </div>
               <div>
-                <img src={caruselImage} alt="#" />
+                <img src={slider3} alt="#" />
               </div>
             </Carousel>
           </WraperCarusel>
@@ -96,13 +98,13 @@ export default function Header() {
             <CalcForm />
             <Carousel autoPlay={true} infiniteLoop={true}>
               <div>
-                <img src={caruselImage} alt="#" />
+                <img src={slider1} alt="#" />
               </div>
               <div>
-                <img src={caruselImage} alt="#" />
+                <img src={slider2} alt="#" />
               </div>
               <div>
-                <img src={caruselImage} alt="#" />
+                <img src={slider3} alt="#" />
               </div>
             </Carousel>
           </WraperCarusel>
@@ -141,13 +143,13 @@ export default function Header() {
           <CalcForm />
           <Carousel autoPlay={true} infiniteLoop={true}>
             <div>
-              <img src={caruselImage} alt="#" />
+              <img src={slider1} alt="#" />
             </div>
             <div>
-              <img src={caruselImage} alt="#" />
+              <img src={slider2} alt="#" />
             </div>
             <div>
-              <img src={caruselImage} alt="#" />
+              <img src={slider3} alt="#" />
             </div>
           </Carousel>
         </WraperCarusel>

@@ -17,6 +17,8 @@ import {
 import tag from '../../img/icons/iconLink.svg';
 import { IconLink, LinkAbout } from 'components/About/About.styled';
 import foto from '../../img/reviews/reviews__1.png';
+import foto1 from '../../img/reviews/reviews-lioncom.jpg';
+import foto2 from '../../img/reviews/reviews3.jpg';
 import star from '../../img/icons/star.svg';
 import calendar from '../../img/icons/calendar.svg';
 import { useIsDesk } from 'Hooks/Hooks';
@@ -26,10 +28,10 @@ export default function Reviews() {
   return (
     <ReviewsSection className="reviews-wrap">
       <Container className="container">
-        <ReviewsTitle className="title">Отзывы клиентов</ReviewsTitle>
+        <ReviewsTitle className="title">Відгуки клієнтів</ReviewsTitle>
         <LinkAbout href="#!" className="link">
           <IconLink src={tag} alt="" />
-          Читать все отзывы
+          Читати всі відгуки
         </LinkAbout>
 
         <ListReviews className="row">
@@ -44,23 +46,22 @@ export default function Reviews() {
             <WraperReviews className="review">
               <ImageReviews
                 className="persone__photo"
-                src={foto}
+                src={foto2}
                 alt="persone-foto"
               />
               <WraperPerson className="persone__info">
                 <PersonTitle className="persone__name">
-                  Степаненко Владимир
+                  Антон Шершньов
                 </PersonTitle>
                 <Box>
                   <img src={calendar} alt="" />
-                  <PersonText className="date">10 марта 2020 г.</PersonText>
+                  <PersonText className="date">18 вересня 2020 р.</PersonText>
                 </Box>
               </WraperPerson>
 
               <ReviewsText className="review__text">
-                Прежде всего, социально-экономическое развитие позволяет оценить
-                значение системы обучения кадров, соответствующей насущным
-                потребностям.
+                Очень рекомендую Друкарня НА ВЧОРА, как супер надёжного партнёра
+                в решении самых горящих и важных задач связанных с полиграфией.
               </ReviewsText>
             </WraperReviews>
           </ItemReviews>
@@ -80,18 +81,17 @@ export default function Reviews() {
               />
               <WraperPerson className="persone__info">
                 <PersonTitle className="persone__name">
-                  Степаненко Владимир
+                  Serg Pavolotsky
                 </PersonTitle>
                 <Box>
                   <img src={calendar} alt="" />
-                  <PersonText className="date">10 марта 2020 г.</PersonText>
+                  <PersonText className="date">05 грудня 2021 р.</PersonText>
                 </Box>
               </WraperPerson>
 
               <ReviewsText className="review__text">
-                Прежде всего, социально-экономическое развитие позволяет оценить
-                значение системы обучения кадров, соответствующей насущным
-                потребностям.
+                Чудова Друкарня! Все зробили вчасно й без зауважень. Працюємо з
+                вами й надалі👌🏻
               </ReviewsText>
             </WraperReviews>
           </ItemReviews>
@@ -107,23 +107,27 @@ export default function Reviews() {
               <WraperReviews className="review">
                 <ImageReviews
                   className="persone__photo"
-                  src={foto}
+                  src={foto1}
                   alt="persone-foto"
                 />
                 <WraperPerson className="persone__info">
                   <PersonTitle className="persone__name">
-                    Степаненко Владимир
+                    Анастасия Чередниченко
                   </PersonTitle>
                   <Box>
                     <img src={calendar} alt="" />
-                    <PersonText className="date">10 марта 2020 г.</PersonText>
+                    <PersonText className="date">
+                      23 листопада 2020 р.
+                    </PersonText>
                   </Box>
                 </WraperPerson>
 
                 <ReviewsText className="review__text">
-                  Прежде всего, социально-экономическое развитие позволяет
-                  оценить значение системы обучения кадров, соответствующей
-                  насущным потребностям.
+                  Бесконечно ценю LargeFormat за качество, оперативность и
+                  открытость в работе. Всегда идут навстречу, выполняют заказы
+                  вовремя и ответственно подходят к делу, которое делают.
+                  Невероятно уважаем такой труд в Lioncom - wow-events agency 🙌
+                  Спасибо, что на вас можно положиться!
                 </ReviewsText>
               </WraperReviews>
             </ItemReviews>

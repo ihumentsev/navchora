@@ -11,12 +11,12 @@ export default function Navigation() {
         <NavigateList>
           <NavigateItem>
             <StyledLink end to="/news">
-              Новости
+              Новини
             </StyledLink>
           </NavigateItem>
           <NavigateItem>
             <StyledLink end to="/delivery">
-              Оплата и доставка
+              Оплата і доставка
             </StyledLink>
           </NavigateItem>
           <NavigateItem>
@@ -26,17 +26,17 @@ export default function Navigation() {
           </NavigateItem>
           <NavigateItem>
             <StyledLink end to="/promotion">
-              Акции
+              Акції
             </StyledLink>
           </NavigateItem>
           <NavigateItem>
             <StyledLink end to="/help">
-              Помощь
+              Допомога
             </StyledLink>
           </NavigateItem>
           <NavigateItem>
             <StyledLink end to="/contacts">
-              Контакты
+              Контакти
             </StyledLink>
           </NavigateItem>
         </NavigateList>
